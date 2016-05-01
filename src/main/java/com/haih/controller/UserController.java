@@ -24,21 +24,15 @@ public class UserController {
     @RequestMapping("/showName")
     @ResponseBody
     public String Index(HttpServletRequest request,Model model){
-<<<<<<< HEAD
     	String resultString = "OK";
     	return resultString;
+//
+//    	LOG.info("Index begin!");
+//    	String tracking = (String)request.getAttribute("trackingID");
 //        int userId = Integer.valueOf(request.getParameter("id"));
 //        User user = userService.getUserById(userId);
 //        model.addAttribute("user", user);
 //        return "show";
-=======
-    	LOG.info("Index begin!");
-    	String tracking = (String)request.getAttribute("trackingID");
-        int userId = Integer.valueOf(request.getParameter("id"));
-        User user = userService.getUserById(userId);
-        model.addAttribute("user", user);
-        return "show";
->>>>>>> origin/master
     }
     
     @RequestMapping(value = "/addUser",method = RequestMethod.POST)
