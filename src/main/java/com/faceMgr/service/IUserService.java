@@ -2,7 +2,7 @@ package  com.faceMgr.service;
 
 import java.util.List;
 
-import com.faceMgr.pojo.User;
+import com.faceMgr.bean.User;
 
 
 public interface IUserService {

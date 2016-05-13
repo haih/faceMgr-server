@@ -1,7 +1,7 @@
 package  com.faceMgr.dao;
 
 
-import com.faceMgr.pojo.User;
+import com.faceMgr.bean.User;
 
 
 public interface IUserDao {

@@ -1,4 +1,4 @@
-package  com.faceMgr.pojo;
+package  com.faceMgr.bean;
 
 
 public class User {

@@ -36,7 +36,7 @@
 	</appender>
 	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>/Users/faceMgr/Local/apache-tomcat-7.0.65/logs/ssm.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<fileNamePattern>/opt/apache-tomcat_1/logs/faceMgr.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 			<maxHistory>90</maxHistory>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 				<maxFileSize>100MB</maxFileSize>
@@ -53,7 +53,7 @@
 			<OnMatch>ACCEPT</OnMatch>
 		</filter>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>/Users/faceMgr/Local/apache-tomcat-7.0.65/logs/ssm-err.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<fileNamePattern>/opt/apache-tomcat_1/logs/faceMgr-err.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
 			<maxHistory>90</maxHistory>
 			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
 				<maxFileSize>100MB</maxFileSize>
