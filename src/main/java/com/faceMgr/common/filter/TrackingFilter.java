@@ -48,6 +48,7 @@ public class TrackingFilter implements Filter {
 		HttpServletResponse response = (HttpServletResponse)arg1;
 		String trackingid = UUID.randomUUID().toString();
 		request.setAttribute(TRACKING_ID, trackingid);
+		
 		response.setHeader(TRACKING_ID, trackingid);
 		//insert trackingid to thread local.
 		LogContext.setTrackingid(trackingid);
